@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+
+<catalog name="struts">
+    <chain name="servlet-standard-postprocess">
+        <command className="com.test.struts.chain.commands.PostProcess"/>
+    </chain>
+</catalog>
